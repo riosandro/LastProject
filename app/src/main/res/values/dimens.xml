@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="textSize">24sp</dimen>
+    <dimen name="padinleft">16dp</dimen>
+    <dimen name="padinright">16dp</dimen>
+    <dimen name="padinup">16dp</dimen>
+    <dimen name="padinbooton">16dp</dimen>
+    <dimen name="paddinall">12dp</dimen>
+    <dimen name="marginleft">16dp</dimen>
+    <dimen name="marginright">16dp</dimen>
+    <dimen name="marginup">16dp</dimen>
+    <dimen name="marginbotoon">16dp</dimen>
+    <dimen name="marginall">16dp</dimen>
+
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_botton">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding_botton">10dp</dimen>
+    <dimen name="textsize">18sp</dimen>
+    <dimen name="textbtformusize">20sp</dimen>
+    <dimen name="textbotonsize">20sp</dimen>
+    <dimen name="padding_left2">6dp</dimen>
+    <dimen name="padding">10dp</dimen>
+
+    </resources>

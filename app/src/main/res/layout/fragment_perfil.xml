@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.riosgame.yourpetshop.PerfilFragment">
+
+    <LinearLayout
+        android:id="@+id/lyimagenperf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tituloperfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/perfildemascota"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colornegro"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <ImageView
+            android:id="@+id/imagenperfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gatoperfil_1" />
+        <TextView
+            android:id="@+id/textonombreperfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombremascota"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorbioletaclaro"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_mascotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp" />
+</LinearLayout>
